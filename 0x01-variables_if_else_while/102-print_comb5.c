@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (j =0; j <= 99; j++)
 			
-			if (i <	J && i != j)
+			if (i <	j && i != j)
 		{
 			putchar((i / 10) + '0');
 			putchar((1 / 10) + '0');
