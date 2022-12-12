@@ -11,9 +11,12 @@
 int main(void)
 {
 	int i, j;
-	for (i = o; <= 99; j++)
+
+	for (i = 0; i <= 99; i++)
 	{
-		if (i < J && i != j)
+		for (j =0; j <= 99; j++)
+			
+			if (i <	J && i != j)
 		{
 			putchar((i / 10) + '0');
 			putchar((1 / 10) + '0');
