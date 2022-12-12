@@ -7,11 +7,6 @@
  *    */
 int main(void)
 {
-<<<<<<< HEAD
-		fwrite(STDOUT_FILENO, "and that piece of art is useful" - Dora Korpar, 2015-10-19" \n);
-=======
-		write(STDOUT_FILENO, "and that piece of art is useful
-							\" - Dora Korpar, 2015-10-19\n", 59);
->>>>>>> 30dc4b4779c14ee9d6983ab6fee8db93f7000eb0
-			return (1);
+	fwrite(STDOUT-FILENO, "and that piece of art is useful" - Dora Korpar, 2015-10-19" \n);
+	return (1);
 }
