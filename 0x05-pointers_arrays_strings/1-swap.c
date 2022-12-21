@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: always 0.
+ * swap_int - swaps the values of the two intergers
+ * @a: integer that needs swapping
+ * @b: integer that needs swapping
  */
-int main(void)
-{
-	int a;
-	int b;
 
-	a = 1
-		b = 2
-		printf("a=%d, b=%d\n", a, b);
-	swap_int($a, $b);
-	print ("a=%d, b=%d\n", a, b);
-	return (0);
+void swap_int(int *a, int *b)
+{
+	int p;
+
+	p = *a;
+		*a = *b;
+		b = p;
 }
