@@ -1,9 +1,14 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
 
-int _putchar(char c);
+/**
+ * _putchar - Writes a character to stdout.
+ * @c: The character to be written.
+ *
+ * Return: On success, the character written; on error, -1.
+ */
+int _putchar(char c)
 {
-	return putchar(char)
+	return (putchar(c));
+}
+
